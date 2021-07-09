@@ -2,8 +2,8 @@ import React from 'react';
 import { TextField, Button, Input } from '@material-ui/core';
 
 function userDetails({handleSubmit, handlePhoto, newUser, handleChange}) {
-    return (
-        <h1>User Details</h1>
+    return ( <>
+        <h1>Upload User Details</h1>
         <form onSubmit={handleSubmit} encType='multipart/form-data'>
         <TextField 
             type="text"
@@ -36,6 +36,7 @@ function userDetails({handleSubmit, handlePhoto, newUser, handleChange}) {
         />
         <Button variant="contained" type = "submit">Submit</Button>
     </form>
+    </>
     )
 }
 
