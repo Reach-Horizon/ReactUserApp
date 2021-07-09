@@ -3,7 +3,7 @@ import { TextField, Button, Input } from '@material-ui/core';
 
 function userDetails({handleSubmit, handlePhoto, newUser, handleChange}) {
     return ( <>
-        <h1>Upload User Details</h1>
+        <h1>Upload User Detailss</h1>
         <form onSubmit={handleSubmit} encType='multipart/form-data'>
         <TextField 
             type="text"
